@@ -1,0 +1,29 @@
+.stopwatch {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#lap-times {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
